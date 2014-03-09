@@ -9,3 +9,9 @@ a:hover {
 blockquote {
   border-left: 5px solid #161E69;
 }
+
+.blog-description .porsonal-liberty,
+.blog-description .civic-responsibility,
+.blog-description .government-accountability {
+  font-size: 19px;
+}
