@@ -13,7 +13,7 @@
         {{! Everything below outputs content of the the post which has been published }}
             <span class="post-meta">
                 <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>
-                
+
                 {{#if tags}}
                 <ul>
                     {{#foreach tags}}
@@ -24,11 +24,11 @@
             </span>
 
         <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
-        
+
         <!-- todo: 1) can we partial this 2) modal bio-->
         <!--
         {{#if author}}
-        	<h4>By {{author.name}}</h4>
+          <h4>By {{author.name}}</h4>
         {{/if}}
         -->
 
@@ -38,9 +38,9 @@
 
         <footer class="post-footer">
 
-		{{! To use a custom section, create the appropriate partials/custom-*.hbs, then comment first line and uncomment the second line}}
-		{{> share-post}}
-		{{!> custom-share-post}}
+    {{! To use a custom section, create the appropriate partials/custom-*.hbs, then comment first line and uncomment the second line}}
+    {{> share-post}}
+    {{!> custom-share-post}}
 
         </footer>
 

@@ -1,55 +1,55 @@
 @import url("http://fonts.googleapis.com/css?family=Arvo:400,400italic");
 
 a:hover {
-	text-decoration: none;
-	color: #186497;
+  text-decoration: none;
+  color: #186497;
 }
 
 /* IMAGE STYLING */
 .circular {
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .circular:hover {
-	-webkit-transform: scale(1.1,1.1);
-	-moz-transform: scale(1.1,1.1);
-	-o-transform: scale(1.1,1.1);
-	-ms-transform: scale(1.1,1.1);
-	transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
 }
 
 .img-responsive-centered {
-	display: block;
-	height: auto;
-	max-width: 90%;
-	margin: 0 auto;
+  display: block;
+  height: auto;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 /* Alternate styling for sidebar for vertical layout */
 @media (max-width: 992px){
-	.bio {
-		text-align:center;
-	}
-	
-	.bio h4 {
-		margin-left: auto;
-		margin-right: auto;
+  .bio {
+    text-align:center;
+  }
 
-		max-width: 500px;
-	}
+  .bio h4 {
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 500px;
+  }
 }
 
 .content {
-	/* A little extra space between content and sidebar */
-	margin-left: 20px;
+  /* A little extra space between content and sidebar */
+  margin-left: 20px;
 }
 
 /* POST STYLING */
@@ -68,37 +68,37 @@ h6,
 .h6 {
   font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-style: italic;
+//  font-style: italic;
   line-height: 1.1;
 }
 
 .post-content,
 .post-excerpt {
-	font-size: 18px;
- 	line-height: 1.6em;
+  font-size: 18px;
+  line-height: 1.6em;
 }
 
 /* meta on the main page */
 .post-meta {
-	margin-top: 12px;
-	margin-left: 12px;
-	margin-bottom: 12px;
-	float: right;
-	color: #9EABB3;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  float: right;
+  color: #9EABB3;
 }
 
 /* meta on the post page */
 .post-template .post-meta {
-	margin-top: 20px;
-	margin-left: 15px;
-	float: right;
-	color: #9EABB3;
+  margin-top: 20px;
+  margin-left: 15px;
+  float: right;
+  color: #9EABB3;
 }
 
 .post-template .post-meta ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 5px 0 0 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0 0;
 }
 
 .post-meta ul li {
@@ -123,17 +123,17 @@ h6,
 }
 
 .post-title {
-	line-height: 1.2em;
-	margin-bottom: 30px;
+  line-height: 1.2em;
+  margin-bottom: 30px;
 }
 
 blockquote {
-	font-style: italic;
-	margin: 30px 0px;
+  font-style: italic;
+  margin: 30px 0px;
 }
 
 pre {
-	margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 /* PAGINATION */
@@ -178,15 +178,15 @@ pre {
 /* SHARING */
 
 .post-footer {
-	border-top: 1px solid #EBF2F6;
-	text-align: right; 
-	margin-top: 6rem;
+  border-top: 1px solid #EBF2F6;
+  text-align: right;
+  margin-top: 6rem;
 }
 
 .icon-twitter,
 .icon-facebook,
 .icon-google-plus {
-	margin: 0 5px;
+  margin: 0 5px;
 }
 
 /* FOOTER */
@@ -257,5 +257,5 @@ pre {
 }
 
 .copyright {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
